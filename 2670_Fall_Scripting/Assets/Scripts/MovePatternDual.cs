@@ -15,7 +15,7 @@ public class MovePatternDual : MovePattern
 
         if (doubleJump)
         {
-            moveDirection= MoveY.Value;
+            //moveDirection= MoveY.Value;
             doubleJump = false;
         }
         

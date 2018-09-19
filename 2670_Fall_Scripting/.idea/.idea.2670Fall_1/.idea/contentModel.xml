@@ -13,6 +13,7 @@
           <e p="FloatBool.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
+          <e p="ForEachLoops.cs" t="Include" />
           <e p="MovePattern.cs" t="Include" />
           <e p="MovePatternDual.cs" t="Include" />
           <e p="MovePatternNotGrounded.cs" t="Include" />
@@ -20,6 +21,7 @@
           <e p="PowerUpConfig.cs" t="Include" />
           <e p="PowerUpData.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="RunCountdown.cs" t="Include" />
           <e p="SaveScene.cs" t="Include" />
         </e>
       </e>
