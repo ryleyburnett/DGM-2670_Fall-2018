@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\10808016\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Test_2670.1102667645.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10808016\Desktop\Test_2670" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="AIAgent.cs" t="Include" />
+          <e p="CharacterMovement.cs" t="Include" />
+          <e p="DoubleJump.cs" t="Include" />
+          <e p="EventScript.cs" t="Include" />
+          <e p="FloatBool.cs" t="Include" />
+          <e p="FloatBoolAndCount.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="FloatInput.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
+          <e p="Move.cs" t="Include" />
+          <e p="MovePattern.cs" t="Include" />
+          <e p="MovePatternDual.cs" t="Include" />
+          <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="NewEvent.cs" t="Include" />
+          <e p="PowerUpConfig.cs" t="Include" />
+          <e p="PowerUpData.cs" t="Include" />
+          <e p="PrefabData.cs" t="Include" />
+          <e p="RunCountdown.cs" t="Include" />
+          <e p="SaveScene.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="Test_2670.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
