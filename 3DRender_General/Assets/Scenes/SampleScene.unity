@@ -685,6 +685,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: 114444339709399374, guid: 94ef395fe5c0fb04386fc0931460fc03, type: 2}
     value: {fileID: 226419549}
+  - key: {fileID: 114140194787925434, guid: 94ef395fe5c0fb04386fc0931460fc03, type: 2}
+    value: {fileID: 1423513343}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &282840810
@@ -774,8 +776,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0, y: 0.7204677, z: 0, w: 0.6934886}
-  m_LocalPosition: {x: -12.605354, y: -0.16066027, z: -0.01889354}
+  m_LocalRotation: {x: 2.635965e-15, y: 0.70131296, z: 2.679342e-15, w: 0.7128536}
+  m_LocalPosition: {x: -12.605589, y: -0.16066027, z: -0.018900216}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1298,6 +1300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423513341}
   - component: {fileID: 1423513342}
+  - component: {fileID: 1423513343}
   m_Layer: 0
   m_Name: CM vcam1
   m_TagString: Untagged
@@ -1311,8 +1314,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423513340}
-  m_LocalRotation: {x: -0, y: -0.26075488, z: -0, w: 0.9654051}
-  m_LocalPosition: {x: 6.7000003, y: 0, z: -10.179999}
+  m_LocalRotation: {x: -1.0785374e-15, y: -0.28695127, z: 3.6005397e-15, w: 0.9579451}
+  m_LocalPosition: {x: 6.700003, y: 0, z: -10.180003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 608969400}
@@ -1336,7 +1339,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 226419550}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -1355,6 +1358,42 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 608969400}
+--- !u!114 &1423513343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1423513340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd3eae9b99934814cb5ada3aa4125d81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+BrainEvent, Cinemachine, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1539954791
 GameObject:
   m_ObjectHideFlags: 0
