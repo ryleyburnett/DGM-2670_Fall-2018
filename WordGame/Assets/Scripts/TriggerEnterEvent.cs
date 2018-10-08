@@ -7,6 +7,6 @@ public class TriggerEnterEvent : MonoBehaviour
 {
     public UnityEvent Event;
 
-    private void poop;
+    //private void poop;
 
 }

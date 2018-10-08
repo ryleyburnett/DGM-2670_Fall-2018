@@ -391,6 +391,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13baaa913ea65964eba7e767893df1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpriteColor: {fileID: 0}
+--- !u!1 &1031465285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1031465286}
+  - component: {fileID: 1031465287}
+  m_Layer: 0
+  m_Name: InstanceOnCount
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1031465286
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031465285}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.78988934, y: 1.6415225, z: 1.1230469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1031465287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1031465285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00602ec32fb27642885b57a8005c629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnCount:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 543c92548b05d7644928700bbf2828ca, type: 2}
+        m_MethodName: Call
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1497490822521054, guid: 74a50e043b31d664b8dab706b00a5139,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  Seconds: 1
 --- !u!1 &1830355584
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13baaa913ea65964eba7e767893df1d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpriteColor: {fileID: 0}
 --- !u!65 &1830355587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -565,6 +625,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de46b47f612e6c44d95243ab5e810b63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!212 &2129156856
 SpriteRenderer:
   m_ObjectHideFlags: 0
