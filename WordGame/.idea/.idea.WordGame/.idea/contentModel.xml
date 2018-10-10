@@ -16,6 +16,7 @@
           <e p="NameID.cs" t="Include" />
           <e p="ObjectID.cs" t="Include" />
           <e p="PerpetualCounter.cs" t="Include" />
+          <e p="SnapOn.cs" t="Include" />
           <e p="TriggerEnterEvent.cs" t="Include" />
           <e p="Word.cs" t="Include" />
         </e>
