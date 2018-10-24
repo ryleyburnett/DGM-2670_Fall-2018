@@ -17,8 +17,8 @@ TagManager:
   - FollowerCam
   - Player
   - Platform
-  - 
-  - 
+  - Enemy
+  - Detectors
   - 
   - 
   - 
