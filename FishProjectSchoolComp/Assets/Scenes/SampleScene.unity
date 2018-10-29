@@ -242,8 +242,9 @@ GameObject:
   - component: {fileID: 154889047}
   - component: {fileID: 154889046}
   - component: {fileID: 154889045}
+  - component: {fileID: 154889049}
   m_Layer: 0
-  m_Name: Ground
+  m_Name: GreenGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,12 +311,28 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 154889044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.41658762, y: -6.52, z: 0.00747478}
+  m_LocalPosition: {x: -0.41658762, y: -9.35, z: 0.00747478}
   m_LocalScale: {x: 146.13972, y: 7.13155, z: 43.151463}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154889049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 154889044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0176336b89b2ee4fb959e1bce714f32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentObj: {fileID: 154889044}
+  Parented: {fileID: 1949149877}
+  ParentPos: {x: 0, y: 0, z: 0}
+  objectA: {fileID: 0}
+  objectB: {fileID: 154889048}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,7 +616,7 @@ GameObject:
   - component: {fileID: 315205232}
   - component: {fileID: 315205231}
   m_Layer: 0
-  m_Name: Ground (1)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1220,7 +1237,7 @@ GameObject:
   - component: {fileID: 588257152}
   - component: {fileID: 588257154}
   m_Layer: 10
-  m_Name: polySurface16
+  m_Name: LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3697,7 +3714,7 @@ GameObject:
   - component: {fileID: 1949149879}
   - component: {fileID: 1949149881}
   m_Layer: 10
-  m_Name: polySurface13
+  m_Name: RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
